@@ -1,4 +1,4 @@
-password = "67no41no61"
+password = "KingOmar82"
 attempt = ""
 tries = 0 
 while attempt != password and tries <3:
