@@ -1,11 +1,11 @@
 #Program descriptiopn
 
+#Variable to store age of user and recive input
+age = int(input("Enter your age: "))
 
-age_years = int(input("Enter your age in years"))
+#if else statement to evalute if user can drive 
 
-months = age_years * 12
-days = age_years * 365 
-print("_____________________________-")
-print("Your are", months, "months old")
-print("Thats about", days, "days!")
-print("______________________________")
+if(age >= 16):
+  print("Your age is eligible to drive. ")
+else:
+  print("Your age is ineligible to drive. ")
